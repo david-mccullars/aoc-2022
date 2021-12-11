@@ -1,0 +1,45 @@
+require_relative 'solve'
+
+EXAMPLE = <<-END
+
+END
+V1 = -1
+V2 = -2
+
+class Today
+
+  def initialize(lines)
+    @x = lines.map do |line|
+    end
+  end
+
+  def first
+    @x
+    -10
+  end
+
+  def second
+    @x
+    -20
+  end
+
+end
+
+solve_with(Today, EXAMPLE => V1) do |x|
+  x.first
+end
+
+solve_with(Today, EXAMPLE => V2) do |x|
+  x.second
+end
+
+__END__
+solve_with(Bingo, EXAMPLE => -1) do |bingo|
+solve_with_each(Wiring, EXAMPLE => -1) do |wirings|
+solve_with_grouped_lines(clazz: Crabs, EXAMPLE => -1) do |crabs|
+solve_with_line_of_numbers(clazz: Crabs, EXAMPLE => -1) do |crabs|
+solve_with_lines(EXAMPLE => -1) do |lines|
+solve_with_numbers(EXAMPLE => -1) do |numbers|
+solve_with_number(EXAMPLE => -1) do |numbers|
+solve_with_text(EXAMPLE => -1) do |text|
+solve_with_grid_of_numbers(clazz: MyGrid, EXAMPLE => -1) do |grid|
