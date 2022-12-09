@@ -11,6 +11,7 @@
 | [Day 6](./06.rb) | `1.5ms` | `21.9ms` |
 | [Day 7](./07.rb) | `1.5ms` | `1.8ms` |
 | [Day 8](./08.rb) | `129.4ms` | `143.9ms` |
+| [Day 9](./09.rb) | `40.4ms` | `154.7ms` |
 
-**Total: 330.9ms**
+**Total: 526.0ms**
 <!--- benchmarking table --->
